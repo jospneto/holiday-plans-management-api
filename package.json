@@ -1,0 +1,23 @@
+{
+  "name": "holiday-plans-management-api",
+  "version": "1.0.0",
+  "description": "Holiday plans api development in node.js and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jospneto/holiday-plans-management-api.git"
+  },
+  "author": "José Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jospneto/holiday-plans-management-api/issues"
+  },
+  "homepage": "https://github.com/jospneto/holiday-plans-management-api#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1"
+  }
+}
