@@ -1,10 +1,12 @@
 const express = require('express')
 const mongoose = require('mongoose');
+const cors = require('cors')
 
 const app = express()
+app.use(cors())
+app.use(express.json())
 const port = 8080
 
-app.use(express.json())
 mongoose.connect('mongodb+srv://josenetopereira380:FWr8S5oUlWzLmd8s@holiday-plans-managemen.y1nuls9.mongodb.net/?retryWrites=true&w=majority&appName=holiday-plans-management-api')
 app.listen(port, () => {
   console.log('App running')
@@ -47,7 +49,7 @@ app.post('/holiday-plan-create', async (req, resp) => {
 })
 
 app.delete('/holiday-plan/:id', async(req, resp) => {
-  const holidayPlan = await HolidayPlan.findByIdAndRemove(req.params.id)
+  const holidayPlan = await HolidayPlan.findByIdAndDelete(req.params.id)
   return resp.send(holidayPlan)
 })
 
