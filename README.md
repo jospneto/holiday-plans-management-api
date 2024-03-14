@@ -1,4 +1,4 @@
-[Insomnia_2024-03-13.json](https://github.com/jospneto/holiday-plans-management-api/files/14595111/Insomnia_2024-03-13.json)# Holiday Management API
+Holiday Management API
 
 * Created using NodeJS, MongoDB, Express and Mongoose :computer:
 * The idea is to simulate the management of plans for the holidays, so the user can register some simple data as well as making a CRUD.
@@ -16,7 +16,7 @@
   
   ![runapi_gif](https://github.com/jospneto/holiday-plans-management-api/assets/84688951/3c526f33-008a-4f5a-acb7-51b2f41f618f)
  
-* Documentation:
+* Documentation 📖
   * A collection of endpoints has been added to the project, along with examples to help you understand and answer any questions you may have.  
   
 
