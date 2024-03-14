@@ -1,15 +1,17 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const cors = require('cors')
+const cors = require('cors');
+const { ROOT_USER, PASSWORD, PORT } = require('./constants/app');
 
 const app = express()
 app.use(cors())
 app.use(express.json())
-const port = 8080
+const port = PORT
 
-mongoose.connect('mongodb+srv://josenetopereira380:FWr8S5oUlWzLmd8s@holiday-plans-managemen.y1nuls9.mongodb.net/?retryWrites=true&w=majority&appName=holiday-plans-management-api')
+mongoose.connect(`mongodb+srv://${ROOT_USER}:${PASSWORD}@holiday-plans-managemen.y1nuls9.mongodb.net/?retryWrites=true&w=majority&appName=holiday-plans-management-api`)
 app.listen(port, () => {
   console.log('App running')
+ 
 })
 
 const holidayPlanParticipantSchema = new mongoose.Schema({
