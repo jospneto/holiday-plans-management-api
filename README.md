@@ -19,6 +19,9 @@ Holiday Management API
 * Documentation 📖
   * A collection of endpoints has been added to the project, along with examples to help you understand and answer any questions you may have.
   * URL of the application deployed in the cloud using Render: <strong color="black">https://holiday-plans-management-api.onrender.com/holiday-plans</strong>
+  * Finally, a job was created by CronJob that will run every 10 minutes so that the application doesn't fall asleep
+    ![image](https://github.com/jospneto/holiday-plans-management-api/assets/84688951/cdf1adbe-11e1-441c-bc71-c7394607e48a)
+ 
 
 
 
