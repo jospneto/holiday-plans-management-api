@@ -13,6 +13,7 @@
 
 * How to run API?
   * In your preferred terminal or DockerDesktop, run the command <strong color="black">docker compose up -d</strong> and watch the page happen
+  
   ![runapi_gif](https://github.com/jospneto/holiday-plans-management-api/assets/84688951/3c526f33-008a-4f5a-acb7-51b2f41f618f)
  
 * Documentation:
