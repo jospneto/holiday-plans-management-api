@@ -11,7 +11,7 @@ Holiday Management API
   * Docker <img align="center" alt="JoseNeto-HTML" height="30" width="40"       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
   * Mongoose <img align="center" alt="JoseNeto-HTML" height="30" width="40"       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg">  
 
-* How to run API?
+* How to run API? 🏃
   * In your preferred terminal or DockerDesktop, run the command <strong color="black">docker compose up -d</strong> and watch the page happen
   
   ![runapi_gif](https://github.com/jospneto/holiday-plans-management-api/assets/84688951/3c526f33-008a-4f5a-acb7-51b2f41f618f)
