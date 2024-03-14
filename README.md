@@ -11,5 +11,5 @@
   * Docker <img align="center" alt="JoseNeto-HTML" height="30" width="40"       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg">
   * Mongoose <img align="center" alt="JoseNeto-HTML" height="30" width="40"       src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg">  
 
-* How to run?
+* How to run API?
   * In your preferred terminal or DockerDesktop, run the command <strong color="black">docker compose up -d</strong> and watch the page happen
